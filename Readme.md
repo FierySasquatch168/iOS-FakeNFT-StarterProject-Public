@@ -3,6 +3,7 @@
 # Ссылки
 
 [Дизайн Figma](https://www.figma.com/file/k1LcgXHGTHIeiCv4XuPbND/FakeNFT-(YP)?node-id=96-5542&t=YdNbOI8EcqdYmDeg-0)
+
 [Скринкаст](https://drive.google.com/file/d/1Gcl66s-Mqe6DYYREMF0uOdvWJvSM9XCO/view?usp=share_link)
 
 # Назначение и цели приложения
