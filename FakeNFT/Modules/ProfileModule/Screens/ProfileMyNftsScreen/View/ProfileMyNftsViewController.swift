@@ -107,10 +107,17 @@ final class ProfileMyNftsViewController: UIViewController, ProfileMyNftsCoordina
 private extension ProfileMyNftsViewController {
     func updateUI(with rows: [MyNfts]) {
         dataSource.updateTableView(with: rows)
+        scrollToTableBottom(rows)
     }
     
     func createDataSource() {
         dataSource.createDataSource(for: tableView, with: viewModel.visibleRows)
+    }
+    
+    func scrollToTableBottom(_ rows: [MyNfts]) {
+        guard !rows.isEmpty else { return }
+        let indexPath = IndexPath(row: rows.count - 1, section: 0)
+        tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
     }
 }
 
